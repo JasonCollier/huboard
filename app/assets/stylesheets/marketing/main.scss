@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Merge all stylesheets into one
  */
@@ -5,7 +6,6 @@
 /**
  * Libraries
  */
-@charset "UTF-8";
 @import "vendor/normalize";
 @import "vendor/bourbon/bourbon";
 @import "vendor/neat/neat";
