@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Crumbtrail
  */
@@ -25,7 +26,8 @@
 		));
 
 		&:after {
-			content: ">";
+			/*content: ">";*/
+			content: "U+203A";
 			display: inline-block;
 			margin-left: 5px;
 		}

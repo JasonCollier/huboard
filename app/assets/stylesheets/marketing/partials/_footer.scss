@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Footer
  */
@@ -292,7 +293,8 @@
 
 		&:before {
 			color: #818181;
-			content: "•";
+			/*content: "•";*/
+			content: "U+2022";
 			@include rem((
 				margin-left: 10px,
 				margin-right: 12px
